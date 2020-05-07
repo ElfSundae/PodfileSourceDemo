@@ -1,0 +1,8 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '9.0'
+
+target 'PodSourceDemo' do
+    pod 'AFNetworking'
+    pod 'SocketRocket', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git'
+end
